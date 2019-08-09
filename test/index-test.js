@@ -3,9 +3,9 @@ const path = require( 'path' );
 var chai = require( 'chai' );
 chai.use( require( 'chai-fs' ) );
 
-describe( 'this lab', () => {
+describe( 'this lab', (git lab) => {
 
-  it( 'has a folder named my-repository', () => {
+  it( 'has a folder named my-repository', (git push origin my-repository) => {
     chai.assert.isDirectory( './my-repository', 'no folder name "my-repository" was found' );
   } )
 
